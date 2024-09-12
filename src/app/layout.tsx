@@ -16,6 +16,7 @@ import './globals.css';
 
 // import customised components
 import TopBar from './components/TopBar';
+import Header from './components/Header';
 
 
 const playfair = Playfair_Display({
@@ -39,6 +40,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={playfair.className}>
         <TopBar />
+        <Header />
         {children}
         {/* <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
