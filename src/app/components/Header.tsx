@@ -27,7 +27,7 @@ export default function Header() {
         >
             <div className="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
                 <h1 className="logo me-auto me-lg-0">
-                    <a href="/">Restaurant</a>
+                    <a href="/"><span>Domino</span> Restaurant</a>
                 </h1>
                 {/* Uncomment below if you prefer to use an image logo  */}
                 {/* <a href="index.html" className="logo me-auto me-lg-0">
